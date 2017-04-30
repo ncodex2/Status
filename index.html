@@ -29,16 +29,22 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> API.
 					</div>
+					
+					<div class="panel investigating">
+						<span data-l10n-id="Investigating">Investigating</span> <span data-l10n-id="on">on</span> Servers.
+					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						API <span class="status operational" data-l10n-id="operational">operational</span>
+						API <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
@@ -46,7 +52,7 @@
 					</li>
 					
 					<li>
-						Servers <span class="status operational" data-l10n-id="operational">operational</span>
+						Servers <span class="status investigating" data-l10n-id="investigating">investigating</span>
 					</li>
 					
 					<li>
@@ -57,7 +63,45 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
-					<em data-l10n-id="no.incidents">No incidents in the past 90 days.</em>
+					
+					<div class="incident">
+						<span class="date moment">2017-04-30 12:59:39 UTC</span>
+
+						
+							<span class="label investigating float-right" data-l10n-id="investigating">investigating</span>
+						
+						
+							<span class="label system float-right">Servers</span>
+						
+						<hr/>
+
+						<span class="title">testtesttesttesttesttesttesttesttesttesttest</span>
+						<p>testtesttesttesttesttesttesttesttesttesttesttesttest</p>
+
+						
+					</div>
+					
+					<div class="incident">
+						<span class="date moment">2017-04-30 12:57:37 UTC</span>
+
+						
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
+						
+						
+							<span class="label system float-right">API</span>
+						
+						<hr/>
+
+						<span class="title">test</span>
+						<p>test</p>
+
+						
+							<p><em>Update <span class="moment">2017-04-30 12:59:12 UTC</span></em></p>
+							<p>this is a test</p>
+
+						
+					</div>
+					
 				
 			</section>
 
