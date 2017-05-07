@@ -29,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> Database, Servers.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -46,11 +48,11 @@
 					</li>
 					
 					<li>
-						Database <span class="status operational" data-l10n-id="operational">operational</span>
+						Database <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
-						Servers <span class="status operational" data-l10n-id="operational">operational</span>
+						Servers <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
@@ -65,6 +67,25 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-05-07 18:57:17 UTC</span>
+
+						
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
+						
+						
+							<span class="label system float-right">Database</span>
+						
+							<span class="label system float-right">Servers</span>
+						
+						<hr/>
+
+						<span class="title">Internal server issue</span>
+						<p>We're investigating sudden failures with MySQL. We should be back online soon.</p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-05-03 17:53:35 UTC</span>
