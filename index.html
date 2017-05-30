@@ -29,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel degraded performance">
+						<span data-l10n-id="Degraded-performance">Degraded performance</span> <span data-l10n-id="on">on</span> Database, Servers.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -46,11 +48,11 @@
 					</li>
 					
 					<li>
-						Database <span class="status operational" data-l10n-id="operational">operational</span>
+						Database <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
-						Servers <span class="status operational" data-l10n-id="operational">operational</span>
+						Servers <span class="status degraded performance" data-l10n-id="degraded-performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -65,6 +67,25 @@
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-05-30 17:28:28 UTC</span>
+
+						
+							<span class="label degraded performance float-right" data-l10n-id="degraded-performance">degraded performance</span>
+						
+						
+							<span class="label system float-right">Database</span>
+						
+							<span class="label system float-right">Servers</span>
+						
+						<hr/>
+
+						<span class="title">Connectivity issues</span>
+						<p>The server is giving high latency, we're investigating right now.</p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-05-07 18:57:17 UTC</span>
