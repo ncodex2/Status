@@ -29,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						<span data-l10n-id="Major-outage">Major outage</span> <span data-l10n-id="on">on</span> Servers, Storage, Website.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -50,21 +52,42 @@
 					</li>
 					
 					<li>
-						Servers <span class="status operational" data-l10n-id="operational">operational</span>
+						Servers <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
-						Storage <span class="status operational" data-l10n-id="operational">operational</span>
+						Storage <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 					<li>
-						Website <span class="status operational" data-l10n-id="operational">operational</span>
+						Website <span class="status major outage" data-l10n-id="major-outage">major outage</span>
 					</li>
 					
 				</ul>
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-06-02 17:39:10 UTC</span>
+
+						
+							<span class="label major outage float-right" data-l10n-id="major-outage">major outage</span>
+						
+						
+							<span class="label system float-right">Servers</span>
+						
+							<span class="label system float-right">Storage</span>
+						
+							<span class="label system float-right">Website</span>
+						
+						<hr/>
+
+						<span class="title">Packet loss</span>
+						<p>We're experiencing packet loss with our remote database. Some parts of the website, world and register are affected.</p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-05-30 17:28:28 UTC</span>
